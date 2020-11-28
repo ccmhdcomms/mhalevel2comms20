@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <!-- Created using Storyline 360 - http://www.articulate.com  -->
-  <!-- version: 3.38.21779.0 -->
+  <!-- version: 3.44.23192.0 -->
   <title>AIC_Mental Health Awareness_Basic_CW2_UpdatedJune302020</title>
   <meta http-equiv="x-ua-compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, shrink-to-fit=no, minimal-ui" />
@@ -25,7 +25,7 @@
     window.isMobile.any = window.isMobile.any || window.isMobile.apple.tablet;
   </script>
 
-  <div id="focus-sink" aria-hidden="true" tabIndex=-1"></div>
+  <div id="focus-sink" aria-hidden="true" tabIndex="-1"></div>
 
   <div id="preso"></div>
   <script>
@@ -37,20 +37,21 @@
 
       lmsPresent: false,
       tinCanPresent: false,
+      cmi5Present: false,
       aoSupport: false,
       scale: 'noscale',
       captureRc: false,
       browserSize: 'optimal',
       bgColor: '#FBFBFB',
-      features: '',
+      features: 'MultipleQuizTracking',
       themeName: 'unified',
       preloaderColor: '#8C8C8C',
       suppressAnalytics: false,
       productChannel: 'stable',
       publishSource: 'storyline',
       aid: 'auth0|5b20679a66faa0634585d08e',
-      cid: '1d063941-fe7a-4c4d-8761-530e252b8feb',
-      playerVersion: '3.38.21779.0',
+      cid: 'b19f5b88-9a08-4381-a416-a94817a81c3c',
+      playerVersion: '3.44.23192.0',
       maxIosVideoElements: 5,
 
       
@@ -116,7 +117,7 @@
     var doc = document, loader = doc.body.querySelector('.slide-loader'); [ 1, 2, 3 ].forEach(function(n) { var d = doc.createElement('div'); d.style.backgroundColor = window.globals.preloaderColor; d.classList.add('mobile-loader-dot'); d.classList.add('dot' + n); loader.appendChild(d); });
   </script>
 
-  <div class="mobile-load-title-overlay">
+  <div class="mobile-load-title-overlay" style="display: none">
     <div class="mobile-load-title">AIC_Mental Health Awareness_Basic_CW2_UpdatedJune302020</div>
   </div>
 
